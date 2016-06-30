@@ -1,0 +1,10 @@
+PODS:
+  - KRLCollectionViewGridLayout (0.4.1)
+
+DEPENDENCIES:
+  - KRLCollectionViewGridLayout (~> 0.4)
+
+SPEC CHECKSUMS:
+  KRLCollectionViewGridLayout: 6363dc7e3d91cf1f97e19ed20846764566659596
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4039F4FF1D25648300351018 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039F4FE1D25648300351018 /* AppDelegate.swift */; };
+		4039F5011D25648300351018 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039F5001D25648300351018 /* ViewController.swift */; };
+		4039F5041D25648300351018 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4039F5021D25648300351018 /* Main.storyboard */; };
+		4039F5061D25648300351018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4039F5051D25648300351018 /* Assets.xcassets */; };
+		4039F5091D25648300351018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4039F5071D25648300351018 /* LaunchScreen.storyboard */; };
+		4039F5141D25648300351018 /* SoleraTechTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039F5131D25648300351018 /* SoleraTechTestTests.swift */; };
+		4039F51F1D25648300351018 /* SoleraTechTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039F51E1D25648300351018 /* SoleraTechTestUITests.swift */; };
+		4039F5321D2567EF00351018 /* CustomItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039F5311D2567EF00351018 /* CustomItemCell.swift */; };
+		4039F5351D2568DD00351018 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039F5341D2568DD00351018 /* Item.swift */; };
+		4039F5381D25692100351018 /* BasketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039F5371D25692100351018 /* BasketManager.swift */; };
+		4039F53A1D256DBF00351018 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039F5391D256DBF00351018 /* Currency.swift */; };
+		4039F53C1D256E0100351018 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039F53B1D256E0100351018 /* ServiceManager.swift */; };
+		4039F53F1D256E5B00351018 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039F53E1D256E5B00351018 /* Parser.swift */; };
+		4039F5411D256EB400351018 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039F5401D256EB400351018 /* JSONParser.swift */; };
+		4039F5431D256ED800351018 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039F5421D256ED800351018 /* Request.swift */; };
+		4039F5451D256EF300351018 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039F5441D256EF300351018 /* Response.swift */; };
+		4039F5471D256F0E00351018 /* CurrencyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039F5461D256F0E00351018 /* CurrencyRequest.swift */; };
+		4039F5491D256F2800351018 /* CurrencyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039F5481D256F2800351018 /* CurrencyResponse.swift */; };
+		4039F54B1D256F5000351018 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039F54A1D256F5000351018 /* DetailViewController.swift */; };
+		4039F54D1D256F6D00351018 /* CurrenciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4039F54C1D256F6D00351018 /* CurrenciesViewController.swift */; };
+		7C8412E4F4FE1DEB924D94DC /* Pods_SoleraTechTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25641A0E28038DA02BCAD91E /* Pods_SoleraTechTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4039F5101D25648300351018 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4039F4F31D25648300351018 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4039F4FA1D25648300351018;
+			remoteInfo = SoleraTechTest;
+		};
+		4039F51B1D25648300351018 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4039F4F31D25648300351018 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4039F4FA1D25648300351018;
+			remoteInfo = SoleraTechTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25641A0E28038DA02BCAD91E /* Pods_SoleraTechTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoleraTechTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4039F4FB1D25648300351018 /* SoleraTechTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoleraTechTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4039F4FE1D25648300351018 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4039F5001D25648300351018 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4039F5031D25648300351018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4039F5051D25648300351018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4039F5081D25648300351018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4039F50A1D25648300351018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4039F50F1D25648300351018 /* SoleraTechTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoleraTechTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4039F5131D25648300351018 /* SoleraTechTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoleraTechTestTests.swift; sourceTree = "<group>"; };
+		4039F5151D25648300351018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4039F51A1D25648300351018 /* SoleraTechTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoleraTechTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4039F51E1D25648300351018 /* SoleraTechTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoleraTechTestUITests.swift; sourceTree = "<group>"; };
+		4039F5201D25648300351018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4039F5311D2567EF00351018 /* CustomItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomItemCell.swift; sourceTree = "<group>"; };
+		4039F5341D2568DD00351018 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		4039F5371D25692100351018 /* BasketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketManager.swift; sourceTree = "<group>"; };
+		4039F5391D256DBF00351018 /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		4039F53B1D256E0100351018 /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		4039F53E1D256E5B00351018 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		4039F5401D256EB400351018 /* JSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		4039F5421D256ED800351018 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		4039F5441D256EF300351018 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		4039F5461D256F0E00351018 /* CurrencyRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyRequest.swift; sourceTree = "<group>"; };
+		4039F5481D256F2800351018 /* CurrencyResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyResponse.swift; sourceTree = "<group>"; };
+		4039F54A1D256F5000351018 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4039F54C1D256F6D00351018 /* CurrenciesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrenciesViewController.swift; sourceTree = "<group>"; };
+		45CB540FB780607B1B7C14A4 /* Pods-SoleraTechTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoleraTechTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoleraTechTest/Pods-SoleraTechTest.release.xcconfig"; sourceTree = "<group>"; };
+		E517F96B803FB849AF538E86 /* Pods-SoleraTechTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoleraTechTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoleraTechTest/Pods-SoleraTechTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4039F4F81D25648300351018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C8412E4F4FE1DEB924D94DC /* Pods_SoleraTechTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4039F50C1D25648300351018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4039F5171D25648300351018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4039F4F21D25648300351018 = {
+			isa = PBXGroup;
+			children = (
+				4039F4FD1D25648300351018 /* SoleraTechTest */,
+				4039F5121D25648300351018 /* SoleraTechTestTests */,
+				4039F51D1D25648300351018 /* SoleraTechTestUITests */,
+				4039F4FC1D25648300351018 /* Products */,
+				A7D0BF25D02BC124447F16B6 /* Pods */,
+				CA24891528E18A3CB5855A1B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4039F4FC1D25648300351018 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4039F4FB1D25648300351018 /* SoleraTechTest.app */,
+				4039F50F1D25648300351018 /* SoleraTechTestTests.xctest */,
+				4039F51A1D25648300351018 /* SoleraTechTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4039F4FD1D25648300351018 /* SoleraTechTest */ = {
+			isa = PBXGroup;
+			children = (
+				4039F5301D2567C300351018 /* CustomCells */,
+				4039F52C1D2564D900351018 /* Delegate */,
+				4039F5361D25691800351018 /* Managers */,
+				4039F5331D2568D300351018 /* Model */,
+				4039F53D1D256E5000351018 /* Parser */,
+				4039F52F1D25650400351018 /* Supporting files */,
+				4039F52E1D2564F900351018 /* UI */,
+				4039F52D1D2564EA00351018 /* ViewControllers */,
+			);
+			path = SoleraTechTest;
+			sourceTree = "<group>";
+		};
+		4039F5121D25648300351018 /* SoleraTechTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				4039F5131D25648300351018 /* SoleraTechTestTests.swift */,
+				4039F5151D25648300351018 /* Info.plist */,
+			);
+			path = SoleraTechTestTests;
+			sourceTree = "<group>";
+		};
+		4039F51D1D25648300351018 /* SoleraTechTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4039F51E1D25648300351018 /* SoleraTechTestUITests.swift */,
+				4039F5201D25648300351018 /* Info.plist */,
+			);
+			path = SoleraTechTestUITests;
+			sourceTree = "<group>";
+		};
+		4039F52C1D2564D900351018 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				4039F4FE1D25648300351018 /* AppDelegate.swift */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		4039F52D1D2564EA00351018 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4039F5001D25648300351018 /* ViewController.swift */,
+				4039F54A1D256F5000351018 /* DetailViewController.swift */,
+				4039F54C1D256F6D00351018 /* CurrenciesViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4039F52E1D2564F900351018 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4039F5021D25648300351018 /* Main.storyboard */,
+				4039F5051D25648300351018 /* Assets.xcassets */,
+				4039F5071D25648300351018 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		4039F52F1D25650400351018 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				4039F50A1D25648300351018 /* Info.plist */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		4039F5301D2567C300351018 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				4039F5311D2567EF00351018 /* CustomItemCell.swift */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		4039F5331D2568D300351018 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4039F5341D2568DD00351018 /* Item.swift */,
+				4039F5391D256DBF00351018 /* Currency.swift */,
+				4039F5421D256ED800351018 /* Request.swift */,
+				4039F5441D256EF300351018 /* Response.swift */,
+				4039F5461D256F0E00351018 /* CurrencyRequest.swift */,
+				4039F5481D256F2800351018 /* CurrencyResponse.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4039F5361D25691800351018 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4039F5371D25692100351018 /* BasketManager.swift */,
+				4039F53B1D256E0100351018 /* ServiceManager.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		4039F53D1D256E5000351018 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				4039F53E1D256E5B00351018 /* Parser.swift */,
+				4039F5401D256EB400351018 /* JSONParser.swift */,
+			);
+			name = Parser;
+			sourceTree = "<group>";
+		};
+		A7D0BF25D02BC124447F16B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E517F96B803FB849AF538E86 /* Pods-SoleraTechTest.debug.xcconfig */,
+				45CB540FB780607B1B7C14A4 /* Pods-SoleraTechTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA24891528E18A3CB5855A1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25641A0E28038DA02BCAD91E /* Pods_SoleraTechTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4039F4FA1D25648300351018 /* SoleraTechTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4039F5231D25648300351018 /* Build configuration list for PBXNativeTarget "SoleraTechTest" */;
+			buildPhases = (
+				CF2D08BBE63F7A693BB90686 /* Check Pods Manifest.lock */,
+				4039F4F71D25648300351018 /* Sources */,
+				4039F4F81D25648300351018 /* Frameworks */,
+				4039F4F91D25648300351018 /* Resources */,
+				AE357084869D3C778FC094C5 /* Embed Pods Frameworks */,
+				3E7E516CF5ED4DC1EF45992C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoleraTechTest;
+			productName = SoleraTechTest;
+			productReference = 4039F4FB1D25648300351018 /* SoleraTechTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4039F50E1D25648300351018 /* SoleraTechTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4039F5261D25648300351018 /* Build configuration list for PBXNativeTarget "SoleraTechTestTests" */;
+			buildPhases = (
+				4039F50B1D25648300351018 /* Sources */,
+				4039F50C1D25648300351018 /* Frameworks */,
+				4039F50D1D25648300351018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4039F5111D25648300351018 /* PBXTargetDependency */,
+			);
+			name = SoleraTechTestTests;
+			productName = SoleraTechTestTests;
+			productReference = 4039F50F1D25648300351018 /* SoleraTechTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4039F5191D25648300351018 /* SoleraTechTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4039F5291D25648300351018 /* Build configuration list for PBXNativeTarget "SoleraTechTestUITests" */;
+			buildPhases = (
+				4039F5161D25648300351018 /* Sources */,
+				4039F5171D25648300351018 /* Frameworks */,
+				4039F5181D25648300351018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4039F51C1D25648300351018 /* PBXTargetDependency */,
+			);
+			name = SoleraTechTestUITests;
+			productName = SoleraTechTestUITests;
+			productReference = 4039F51A1D25648300351018 /* SoleraTechTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4039F4F31D25648300351018 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					4039F4FA1D25648300351018 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4039F50E1D25648300351018 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4039F4FA1D25648300351018;
+					};
+					4039F5191D25648300351018 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4039F4FA1D25648300351018;
+					};
+				};
+			};
+			buildConfigurationList = 4039F4F61D25648300351018 /* Build configuration list for PBXProject "SoleraTechTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4039F4F21D25648300351018;
+			productRefGroup = 4039F4FC1D25648300351018 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4039F4FA1D25648300351018 /* SoleraTechTest */,
+				4039F50E1D25648300351018 /* SoleraTechTestTests */,
+				4039F5191D25648300351018 /* SoleraTechTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4039F4F91D25648300351018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4039F5091D25648300351018 /* LaunchScreen.storyboard in Resources */,
+				4039F5061D25648300351018 /* Assets.xcassets in Resources */,
+				4039F5041D25648300351018 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4039F50D1D25648300351018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4039F5181D25648300351018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E7E516CF5ED4DC1EF45992C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoleraTechTest/Pods-SoleraTechTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE357084869D3C778FC094C5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoleraTechTest/Pods-SoleraTechTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF2D08BBE63F7A693BB90686 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4039F4F71D25648300351018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4039F54D1D256F6D00351018 /* CurrenciesViewController.swift in Sources */,
+				4039F53A1D256DBF00351018 /* Currency.swift in Sources */,
+				4039F5491D256F2800351018 /* CurrencyResponse.swift in Sources */,
+				4039F5381D25692100351018 /* BasketManager.swift in Sources */,
+				4039F5411D256EB400351018 /* JSONParser.swift in Sources */,
+				4039F5351D2568DD00351018 /* Item.swift in Sources */,
+				4039F5011D25648300351018 /* ViewController.swift in Sources */,
+				4039F53F1D256E5B00351018 /* Parser.swift in Sources */,
+				4039F5321D2567EF00351018 /* CustomItemCell.swift in Sources */,
+				4039F5451D256EF300351018 /* Response.swift in Sources */,
+				4039F5471D256F0E00351018 /* CurrencyRequest.swift in Sources */,
+				4039F5431D256ED800351018 /* Request.swift in Sources */,
+				4039F53C1D256E0100351018 /* ServiceManager.swift in Sources */,
+				4039F4FF1D25648300351018 /* AppDelegate.swift in Sources */,
+				4039F54B1D256F5000351018 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4039F50B1D25648300351018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4039F5141D25648300351018 /* SoleraTechTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4039F5161D25648300351018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4039F51F1D25648300351018 /* SoleraTechTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4039F5111D25648300351018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4039F4FA1D25648300351018 /* SoleraTechTest */;
+			targetProxy = 4039F5101D25648300351018 /* PBXContainerItemProxy */;
+		};
+		4039F51C1D25648300351018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4039F4FA1D25648300351018 /* SoleraTechTest */;
+			targetProxy = 4039F51B1D25648300351018 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4039F5021D25648300351018 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4039F5031D25648300351018 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4039F5071D25648300351018 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4039F5081D25648300351018 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4039F5211D25648300351018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4039F5221D25648300351018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4039F5241D25648300351018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E517F96B803FB849AF538E86 /* Pods-SoleraTechTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SoleraTechTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brodrigues.com.SoleraTechTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4039F5251D25648300351018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45CB540FB780607B1B7C14A4 /* Pods-SoleraTechTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SoleraTechTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brodrigues.com.SoleraTechTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4039F5271D25648300351018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoleraTechTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brodrigues.com.SoleraTechTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoleraTechTest.app/SoleraTechTest";
+			};
+			name = Debug;
+		};
+		4039F5281D25648300351018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoleraTechTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brodrigues.com.SoleraTechTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoleraTechTest.app/SoleraTechTest";
+			};
+			name = Release;
+		};
+		4039F52A1D25648300351018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SoleraTechTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brodrigues.com.SoleraTechTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SoleraTechTest;
+			};
+			name = Debug;
+		};
+		4039F52B1D25648300351018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SoleraTechTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = brodrigues.com.SoleraTechTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SoleraTechTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4039F4F61D25648300351018 /* Build configuration list for PBXProject "SoleraTechTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4039F5211D25648300351018 /* Debug */,
+				4039F5221D25648300351018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4039F5231D25648300351018 /* Build configuration list for PBXNativeTarget "SoleraTechTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4039F5241D25648300351018 /* Debug */,
+				4039F5251D25648300351018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4039F5261D25648300351018 /* Build configuration list for PBXNativeTarget "SoleraTechTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4039F5271D25648300351018 /* Debug */,
+				4039F5281D25648300351018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4039F5291D25648300351018 /* Build configuration list for PBXNativeTarget "SoleraTechTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4039F52A1D25648300351018 /* Debug */,
+				4039F52B1D25648300351018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4039F4F31D25648300351018 /* Project object */;
+}

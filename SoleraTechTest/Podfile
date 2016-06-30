@@ -1,0 +1,4 @@
+target 'SoleraTechTest' do
+  	use_frameworks!
+	pod 'KRLCollectionViewGridLayout', '~> 0.4'
+end
